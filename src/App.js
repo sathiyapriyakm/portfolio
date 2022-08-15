@@ -10,7 +10,7 @@ import { Resume } from "./containers/resume/resume";
 import { Navbar } from "./components/navBar/navBar";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import particles from "./utils.js/particles";
+import {particles} from "./utils.js/particles";
 function App(){
 
   const location=useLocation();

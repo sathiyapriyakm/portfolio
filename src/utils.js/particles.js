@@ -1,4 +1,4 @@
-export default{
+export  const particles={
     background: {
         color: {
             value: "#1d1d1d",
