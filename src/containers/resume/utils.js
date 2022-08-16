@@ -2,35 +2,41 @@ export const data={
     experience:[
         {
             title:"Senior Software System Design Engineer",
-            subTitle:"2016-2017, Coimbatore,India",
-            description:" Requirement Engineering, Customer Experience, Integrated Testing "
+            subTitle:"Coimbatore,India",
+            description:" Requirement Engineering, Customer collaboration, Integrated Testing ",
+            date:"2016-2017"
         },
         {
             title:"Senior Software System Design Engineer",
-            subTitle:"2016 January- April,Austria,Vienna",
-            description:" Customer Relationship and counterpart connection "
+            subTitle:"Austria,Vienna",
+            description:" Customer Relationship  and counterpart connection ",
+            date:"2016 January- April"
         },
         {
             title:"Software Engineer",
-            subTitle:"2013 -2016, Coimbatore,India",
-            description:" Software development, review and testing, Quality assurance by process compliance"
+            subTitle:"Coimbatore,India",
+            description:" Software development, review and testing, Quality assurance by process compliance",
+            date:"2013 -2016"
         }
     ],
     education:[
         {
             title:"B.E - Electronics and Communication Engineering",
-            subTitle:"CGPA: 9.2, College Topper",
-            description:" 2009-2013,Kongu Engineering college, Perundurai,TamilNadu",
+            subTitle:"9.2 CGPA, College Topper",
+            description:"Kongu Engineering college, Perundurai,TamilNadu",
+            date:" 2009-2013",
         },
         {
-            title:"Higher Secondary Education - 12th standard",
-            subTitle:"Percentage: 96%, School Topper",
-            description:"2008-2009, Lions Matric Higher secondary School ,Erode, TamilNadu",
+            title:"Higher Secondary Education - 12th Grade",
+            subTitle:"96 Percentage, School Topper",
+            description:"Lions Matric Higher secondary School ,Erode, TamilNadu",
+            date:"2008-2009"
         },
         {
-            title:"Matriculation Education - 10th standard",
-            subTitle:"Percentage: 92%, School Topper",
-            description:"2006-2007, Lions Matric Higher secondary School ,Erode, TamilNadu",
+            title:"Matriculation Education - 10th Grade",
+            subTitle:"92 Percentage, School Topper",
+            description:"Lions Matric Higher secondary School ,Erode, TamilNadu",
+            date:"2006-2007"
         }
     ]
 }
