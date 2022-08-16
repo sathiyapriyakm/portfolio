@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa"
-import {GiStairsGoal} from "react-icons/gi"
+// import {GiStairsGoal} from "react-icons/gi"
 import { HiX } from "react-icons/hi"
 import { Link } from "react-router-dom"
 import { useState } from "react"

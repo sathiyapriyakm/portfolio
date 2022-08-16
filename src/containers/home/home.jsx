@@ -3,20 +3,21 @@ import "./home.scss";
 import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 
+
 export const Home = () => {
     const navigate = useNavigate();
 
     const handleNavigateToContactMePage = () => {
         navigate("/contact");
     }
-    const handleOpenResumePage=()=>{
+    const handleOpenResumePage = () => {
         window.open(
             'https://app.luminpdf.com/viewer/62fb35f881735e22313f967d',
             '_blank' // <- This is what makes it open in a new window.
-          );
+        );
 
     }
-    return (
+      return (
         <section id="home" className="home">
             <div className="home__text-wraper">
                 <h1>
@@ -38,10 +39,10 @@ export const Home = () => {
             >
                 <div className="home__contact-me">
                     <button onClick={handleNavigateToContactMePage}>Hire Me</button>
-                    <button onClick={handleOpenResumePage}> Resume</button>  
+                    <button onClick={handleOpenResumePage}> Resume</button>
                 </div>
             </Animate>
         </section>
-        
+
     )
 }
