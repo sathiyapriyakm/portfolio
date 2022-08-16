@@ -21,6 +21,12 @@ export const data={
     ],
     education:[
         {
+            title:"Full Stack development course",
+            subTitle:"MERN",
+            description:"GUVI Geeks Network, Chennai,TamilNadu",
+            date:" 2022 - Present",
+        },
+        {
             title:"B.E - Electronics and Communication Engineering",
             subTitle:"9.2 CGPA, College Topper",
             description:"Kongu Engineering college, Perundurai,TamilNadu",
