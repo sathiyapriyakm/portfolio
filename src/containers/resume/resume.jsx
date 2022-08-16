@@ -1,6 +1,6 @@
 import { PageHeaderContent } from "components/pageHeaderContent/pageHeaderContent";
 import React from "react";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { TbListDetails } from "react-icons/tb";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component/dist-modules";
 import { data } from "./utils";
 import "./resume.scss";
@@ -13,7 +13,7 @@ export const Resume = () => {
         <section id="resume" className="resume">
             <PageHeaderContent
                 headerText="My Resume"
-                icon={<BsInfoCircleFill size={40} />}
+                icon={<TbListDetails size={40} />}
             />
             <div className="timeline">
                 <div className="timeline__experience">

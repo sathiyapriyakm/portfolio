@@ -1,5 +1,6 @@
 import React from "react";
-import { FaBars, FaFemale } from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
+import {GiStairsGoal} from "react-icons/gi"
 import { HiX } from "react-icons/hi"
 import { Link } from "react-router-dom"
 import { useState } from "react"
@@ -41,7 +42,8 @@ export const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar__container">
                     <Link to={'/'} className="navbar__container__logo">
-                        <FaFemale size={30} />
+                        {/* <GiStairsGoal size={40} /> */}
+                        {'<Sathiyapriya Krishnasamy/>'}
                     </Link>
                 </div>
                 <ul className={`navbar__container__menu ${toggleIcon?"active":""}`}>

@@ -10,6 +10,10 @@ export const Home = () => {
         navigate("/contact");
     }
     const handleOpenResumePage=()=>{
+        window.open(
+            'https://app.luminpdf.com/viewer/62fb35f881735e22313f967d',
+            '_blank' // <- This is what makes it open in a new window.
+          );
 
     }
     return (
@@ -34,7 +38,7 @@ export const Home = () => {
             >
                 <div className="home__contact-me">
                     <button onClick={handleNavigateToContactMePage}>Hire Me</button>
-                    <button onClick={handleOpenResumePage}>Resume</button>
+                    <button onClick={handleOpenResumePage}> Resume</button>  
                 </div>
             </Animate>
         </section>

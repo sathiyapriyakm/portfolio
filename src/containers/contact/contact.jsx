@@ -1,7 +1,7 @@
 // import { TextField } from "@mui/material";
 import { PageHeaderContent } from "components/pageHeaderContent/pageHeaderContent";
 import React from "react";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { RiContactsLine } from "react-icons/ri";
 import { Animate } from "react-simple-animate";
 // import { useFormik } from "formik";
 // import * as yup from "yup";
@@ -41,7 +41,7 @@ export const Contact = () => {
         <section id="contact" className="contact">
             <PageHeaderContent
                 headerText="My Contact"
-                icon={<BsInfoCircleFill size={40} />}
+                icon={<RiContactsLine size={40} />}
             />
             <div className="contact__content">
                 <Animate
