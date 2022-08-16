@@ -9,6 +9,9 @@ export const Home = () => {
     const handleNavigateToContactMePage = () => {
         navigate("/contact");
     }
+    const handleOpenResumePage=()=>{
+
+    }
     return (
         <section id="home" className="home">
             <div className="home__text-wraper">
@@ -31,8 +34,10 @@ export const Home = () => {
             >
                 <div className="home__contact-me">
                     <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+                    <button onClick={handleOpenResumePage}>Resume</button>
                 </div>
             </Animate>
         </section>
+        
     )
 }
